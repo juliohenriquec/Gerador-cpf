@@ -1,19 +1,17 @@
-cpf = input('Digite o cpf: ')
-#cpf = '746.824.890-70'
-cpf_limpo = cpf.replace('.', '-').replace('-', '')
-cont = 10
-soma = 0
-for digito in range(0,9):
-    multiplicacao = int(cpf_limpo[digito]) * cont
-    soma += multiplicacao
-    cont -= 1
+cpf = input('Digite o cpf: ').replace('.', '-').replace('-', '')
+nove_digitos = cpf[:9]
+contador_regressivo_1 = 10
+resultado_digito_1 = 0
 
-nova_multiplicao = soma * 10
-resto_divisao = nova_multiplicao % 11
+for digito_1 in range(0,9):
+    resultado_digito_1 += int(cpf[digito_1]) * contador_regressivo_1
+    contador_regressivo_1 -= 1
 
-if resto_divisao > 9:
+digito_1 = (resultado_digito_1 * 10) % 11
+
+if digito_1 > 9:
     resultado = 0
 else:
-    resultado = resto_divisao
+    resultado = digito_1
 
 print(f'O primeiro digito {resultado}')
