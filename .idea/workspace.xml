@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dae4bee-05ce-4e23-af4f-f7b7d12b08e9" name="Changes" comment="validado o segundo digito" />
+    <list default="true" id="7dae4bee-05ce-4e23-af4f-f7b7d12b08e9" name="Changes" comment="validado o segundo digito">
+      <change beforePath="$PROJECT_DIR$/validacao-cpf.py" beforeDir="false" afterPath="$PROJECT_DIR$/validacao-cpf.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +28,12 @@
     &quot;assignee&quot;: &quot;juliohenriquec&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/juliohenriquec/Gerador-cpf.git",
-    "accountId": "cd43148f-255f-428a-81d9-d0322598ecf6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/juliohenriquec/Gerador-cpf.git&quot;,
+    &quot;accountId&quot;: &quot;cd43148f-255f-428a-81d9-d0322598ecf6&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -45,7 +47,8 @@
     "Python.validacao-cpf.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/julio/PROGRAMAÇÃO/PYTHON/PycharmProjects/Gerador-cpf"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -96,7 +99,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748265145879</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="validado o segundo digito">
+      <option name="closed" value="true" />
+      <created>1758315905768</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758315905768</updated>
+    </task>
+    <task id="LOCAL-00006" summary="validado o segundo digito">
+      <option name="closed" value="true" />
+      <created>1758315924940</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758315924940</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
